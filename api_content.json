@@ -1,0 +1,452 @@
+{
+  "profile": {
+    "name": "Umair Akram",
+    "role": "Full-Stack Software Engineer",
+    "title": "Full-Stack Software Engineer",
+    "tagline": "Engineering production-ready MERN stack web applications, robust backend REST APIs, and modern frontend user experiences with clean, structured architecture.",
+    "subtagline": "BS in Software Engineering from IQRA University. Specializing in React, Node.js, Express, Python & modern databases.",
+    "about": "I am a Software Engineer and a dedicated MERN Stack Developer with experience in frontend and backend development. I specialize in building responsive, user-friendly web applications, and have contributed to live commercial projects. Seeking a Full-Stack Developer role where I can utilize my expertise in React.js, Node.js, and modern databases to deliver high-quality software solutions.",
+    "aboutDetails": [
+      "I love clean architecture, scalable APIs, and crafting intuitive user interfaces. Most days you'll find me building with React.js, Node.js, Express, PostgreSQL/MongoDB, and Python.",
+      "Off the clock, I explore cloud data pipelines, system design principles, and new AI tools to refine my developer workflow."
+    ],
+    "highlights": [
+      "Architected enterprise HRMS (NexaHR) with payroll & biometric attendance",
+      "Built CRM access control & WhatsApp complaint management systems",
+      "Developed full-stack e-commerce platform with automated logistics",
+      "Hands-on with React, Node.js, Express, Python, SQL/NoSQL & Cloud DevOps"
+    ],
+    "location": "Karachi, Pakistan",
+    "email": "umaaiirakram@gmail.com",
+    "linkedin": "https://linkedin.com/in/imumairakram",
+    "linkedinLabel": "linkedin.com/in/imumairakram",
+    "github": "https://github.com/imumairakram",
+    "githubLabel": "github.com/imumairakram",
+    "photo": "/umair.jpg",
+    "resume": "/Umair_Akram_Resume.pdf",
+    "intro": "A passionate Full-Stack Software Engineer who specializes in building high-performance, scalable, and visually stunning web applications. Combining clean architecture with premium user experiences.",
+    "availability": "Open to Full-Stack Developer roles, software engineering opportunities and technical collaborations.",
+    "current": {
+      "since": "2026",
+      "title": "Full-Stack Software Engineer",
+      "company": "Software Engineering Division"
+    },
+    "awardBadge": {
+      "sub": "Distinction Award",
+      "title": "Grade A+ (NAVTTC)"
+    },
+    "promoBadge": {
+      "sub": "",
+      "title": ""
+    },
+    "currentNote": "",
+    "heroChips": [
+      "MERN Stack",
+      "Node.js + Express",
+      "PostgreSQL & MongoDB",
+      "REST APIs & Cloud"
+    ],
+    "statsTitle": "Career & Impact",
+    "statsSubtitle": "Real-world engineering, production deployments, and continuous technical growth."
+  },
+  "stats": [
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Commitment to Clean Architecture & Delivery"
+    },
+    {
+      "value": 3,
+      "suffix": "+",
+      "label": "Enterprise & Commercial Web Systems Shipped"
+    },
+    {
+      "value": 5,
+      "suffix": "+",
+      "label": "Professional Certifications & Specializations"
+    },
+    {
+      "value": 15,
+      "suffix": "+",
+      "label": "Core Technologies in Active Production Stack"
+    }
+  ],
+  "strengths": [
+    "Full-Stack MERN Architecture",
+    "Scalable RESTful APIs & Microservices",
+    "Database Modeling (SQL & NoSQL)",
+    "Performance & Speed Optimization"
+  ],
+  "services": [
+    {
+      "icon": "layout",
+      "title": "Full-Stack Web Applications",
+      "desc": "Production-grade MERN stack applications with intuitive dashboards, role-based access control, and robust API endpoints.",
+      "tags": [
+        "React.js",
+        "Node.js",
+        "Express",
+        "MongoDB / PostgreSQL"
+      ],
+      "text": "Production-grade MERN stack applications with intuitive dashboards, role-based access control, and robust API endpoints."
+    },
+    {
+      "icon": "smartphone",
+      "title": "Frontend Engineering",
+      "desc": "High-performance, accessible web interfaces in React.js & Next.js with fluid animations and responsive design.",
+      "tags": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "text": "High-performance, accessible web interfaces in React.js & Next.js with fluid animations and responsive design."
+    },
+    {
+      "icon": "server",
+      "title": "Backend & API Development",
+      "desc": "Fast, secure REST APIs built with Node.js, Express.js, and Python with JWT authentication and secure data validation.",
+      "tags": [
+        "Node.js",
+        "Express",
+        "Python",
+        "JWT Auth",
+        "REST APIs"
+      ],
+      "text": "Fast, secure REST APIs built with Node.js, Express.js, and Python with JWT authentication and secure data validation."
+    },
+    {
+      "icon": "cloud",
+      "title": "Database Design & Cloud Deployment",
+      "desc": "Relational and NoSQL schemas (PostgreSQL, MongoDB, MySQL) deployed to cloud platforms (AWS, Azure, Vercel, Render).",
+      "tags": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "PostgreSQL",
+        "MongoDB"
+      ],
+      "text": "Relational and NoSQL schemas (PostgreSQL, MongoDB, MySQL) deployed to cloud platforms (AWS, Azure, Vercel, Render)."
+    }
+  ],
+  "skillGroups": [
+    {
+      "desc": "UI frameworks, modern styling, and browser-focused tooling.",
+      "icon": "layout",
+      "wide": true,
+      "items": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "Tailwind CSS",
+        "Bootstrap",
+        "HTML5 / CSS3",
+        "Vite"
+      ],
+      "title": "Frontend"
+    },
+    {
+      "desc": "Server-side runtime, frameworks, REST APIs, and authentication.",
+      "icon": "server",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "Java",
+        "Python",
+        "FastAPI",
+        "Flask",
+        "REST APIs",
+        "JWT Auth",
+        "RBAC"
+      ],
+      "title": "Backend"
+    },
+    {
+      "desc": "Relational, NoSQL, and data warehousing layers.",
+      "icon": "database",
+      "items": [
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Microsoft SQL Server",
+        "Snowflake",
+        "SQLite"
+      ],
+      "title": "Databases"
+    },
+    {
+      "desc": "Cross-platform mobile development.",
+      "icon": "smartphone",
+      "items": [
+        "React Native",
+        "Flutter",
+        "Kotlin"
+      ],
+      "title": "Mobile Development"
+    },
+    {
+      "desc": "Cloud platforms, containerisation, CI/CD and deployment.",
+      "icon": "cloud",
+      "wide": true,
+      "items": [
+        "AWS",
+        "Microsoft Azure",
+        "Docker",
+        "GitHub Actions CI/CD",
+        "Vercel",
+        "Render"
+      ],
+      "title": "Cloud & DevOps"
+    },
+    {
+      "desc": "Engineering tools, API testing, and code quality.",
+      "icon": "layers",
+      "items": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "VS Code",
+        "IntelliJ IDEA",
+        "Figma",
+        "System Design"
+      ],
+      "title": "Development Tools"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full-Stack Developer",
+      "company": "Freelancing (Contract based)",
+      "location": "Remote",
+      "period": "Jun 2026 – Aug 2026",
+      "current": false,
+      "highlight": "",
+      "tags": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "PERN Stack",
+        "RBAC"
+      ],
+      "points": [
+        "Architected NexaHR, a single-company enterprise HRMS featuring biometric attendance, automated payroll, and applicant tracking.",
+        "Designed secure APIs and intuitive dashboards with strict Role-Based Access Control (RBAC) for sensitive employee data security.",
+        "Integrated real-time analytics, leave approval workflows, and employee lifecycle management."
+      ]
+    },
+    {
+      "role": "MERN Stack Developer Intern",
+      "company": "Dreams Network & Technology (Pvt) Ltd.",
+      "location": "Karachi, Pakistan (Internship)",
+      "period": "Feb 2026 – May 2026",
+      "current": false,
+      "highlight": "",
+      "tags": [
+        "MERN Stack",
+        "React.js",
+        "Node.js",
+        "CRM Portal",
+        "Performance Tuning"
+      ],
+      "points": [
+        "Built a complete front-end and back-end for the Access Control system in the company's CRM portal.",
+        "Improved the loading speed and responsiveness performance of the company website to elevate user retention.",
+        "Engineered a complete front-end and back-end for the WhatsApp dashboard in the complaint portal, helping staff easily record and manage complaints."
+      ]
+    },
+    {
+      "role": "Freelance Software Developer (Contract)",
+      "company": "QLS Karachi",
+      "location": "Karachi, Pakistan (Contract)",
+      "period": "Oct 2025 – Jan 2026",
+      "current": false,
+      "highlight": "",
+      "tags": [
+        "Full-Stack",
+        "E-Commerce",
+        "Admin Dashboard",
+        "Logistics Integration"
+      ],
+      "points": [
+        "Developed and deployed a full-stack e-commerce platform featuring secure authentication, dynamic browsing, and cart management.",
+        "Built an admin dashboard with real-time order tracking and automated shipping label generation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "ride",
+      "tint": "violet",
+      "stack": [
+        "React Native",
+        "Android (APK)",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.io",
+        "Python",
+        "LLMs / AI",
+        "i18n"
+      ],
+      "title": "Manzil - Transit Assistant",
+      "badges": [
+        "In Development",
+        "Coming Soon"
+      ],
+      "metric": {
+        "value": "AI",
+        "label": "Voice-first public transit guide with real-time traffic alerts"
+      },
+      "points": [
+        "Voice-first transit navigation built for Karachi commuters.",
+        "Native voice commands, 3D landmarks, and smart bus fleet recognition.",
+        "Bilingual (Urdu/English) with real-time WebSocket traffic alerts."
+      ],
+      "subtitle": "Voice-First Public Transit Guide (Android)"
+    },
+    {
+      "id": "saas",
+      "tint": "champagne",
+      "stack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "PERN Stack",
+        "REST APIs",
+        "RBAC"
+      ],
+      "title": "NexaHR",
+      "badges": [
+        "PERN Stack",
+        "Live"
+      ],
+      "metric": {
+        "value": "HRMS",
+        "label": "Automated payroll, employee lifecycle & RBAC portal"
+      },
+      "points": [
+        "Enterprise-grade HR management web portal built with PostgreSQL, Express, React, and Node.js.",
+        "Automated payroll calculation, employee lifecycle, and leave approval workflows.",
+        "Role-based access control (RBAC) with real-time analytics dashboards."
+      ],
+      "subtitle": "HR Management Web Portal (PERN Stack)",
+      "demo": "https://nexa-hr-xi.vercel.app/"
+    },
+    {
+      "id": "habit",
+      "tint": "violet",
+      "stack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "REST APIs",
+        "MERN Stack"
+      ],
+      "title": "Care Rent",
+      "badges": [
+        "MERN Stack",
+        "Live"
+      ],
+      "metric": {
+        "value": "FYDP",
+        "label": "Online bookings, equipment tracking & nursing services"
+      },
+      "points": [
+        "Full-stack MERN medical equipment rental platform engineered for Final Year Design Project (FYDP).",
+        "Real-time equipment availability tracking, online bookings, and nursing service requests.",
+        "AI-based equipment recommendations, secure JWT authentication, and admin inventory management."
+      ],
+      "subtitle": "Medical Equipment Rental Platform"
+    }
+  ],
+  "moreProjects": [
+    {
+      "text": "A coding platform now in internal use at the institute.",
+      "badge": {
+        "icon": "award",
+        "tone": "champagne",
+        "label": "Best Live Project of the Year"
+      },
+      "stack": "MERN",
+      "title": "Online Coding Platform"
+    },
+    {
+      "text": "Road-trip planner with expense splitting and budget calculation.",
+      "badge": {
+        "icon": "zap",
+        "tone": "warning",
+        "label": "In progress"
+      },
+      "stack": "Flutter",
+      "title": "Zoono Trip"
+    }
+  ],
+  "education": [
+    {
+      "year": "Oct 2022 – Sep 2026",
+      "short": "BS SE",
+      "degree": "Bachelor of Science in Software Engineering",
+      "school": "IQRA University, Karachi, Pakistan"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Advance Python Programming & Applications (Grade A+)",
+      "issuer": "NAVTTC (Govt of Pakistan) / Aptech"
+    },
+    {
+      "title": "MERN Stack Internship Certificate",
+      "issuer": "Software Engineering Division"
+    },
+    {
+      "title": "Hands On Essentials: Data Warehouse",
+      "issuer": "Snowflake University"
+    },
+    {
+      "title": "Python Programming (Batch-03)",
+      "issuer": "Saylani Welfare International Trust (SMIT)"
+    },
+    {
+      "title": "Cloud Data Engineering (Batch-1)",
+      "issuer": "Saylani Welfare International Trust (SMIT)"
+    }
+  ],
+  "marqueeItems": [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "MongoDB",
+    "TypeScript",
+    "Python",
+    "Next.js",
+    "Docker",
+    "AWS",
+    "FastAPI",
+    "Git",
+    "Tailwind CSS",
+    "REST APIs"
+  ],
+  "shop": {
+    "enabled": false,
+    "price": 100,
+    "title": "Get the source code of this portfolio",
+    "subtitle": "The complete code behind this site — frontend, backend and admin panel. Add your details and go live today.",
+    "features": [
+      "React + Vite site with GSAP & Lenis animations",
+      "Admin panel to edit every section without touching code",
+      "Resume and photo uploads",
+      "Node.js / Express backend with Supabase storage",
+      "Free deployment on Vercel, with a step-by-step guide",
+      "Razorpay checkout to sell your own products"
+    ],
+    "file": "",
+    "fileSize": null,
+    "fileUpdated": null
+  }
+}
