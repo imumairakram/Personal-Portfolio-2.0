@@ -364,28 +364,7 @@
       "subtitle": "Medical Equipment Rental Platform"
     }
   ],
-  "moreProjects": [
-    {
-      "text": "A coding platform now in internal use at the institute.",
-      "badge": {
-        "icon": "award",
-        "tone": "champagne",
-        "label": "Best Live Project of the Year"
-      },
-      "stack": "MERN",
-      "title": "Online Coding Platform"
-    },
-    {
-      "text": "Road-trip planner with expense splitting and budget calculation.",
-      "badge": {
-        "icon": "zap",
-        "tone": "warning",
-        "label": "In progress"
-      },
-      "stack": "Flutter",
-      "title": "Zoono Trip"
-    }
-  ],
+  "moreProjects": [],
   "education": [
     {
       "year": "Oct 2022 – Sep 2026",
