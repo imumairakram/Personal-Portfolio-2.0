@@ -10,6 +10,13 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
+    def end_headers(self):
+        # Disable caching completely for development
+        self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate, max-age=0')
+        self.send_header('Pragma', 'no-cache')
+        self.send_header('Expires', '0')
+        super().end_headers()
+
     def do_GET(self):
         # Handle /api/content route
         if self.path == '/api/content' or self.path.startswith('/api/content?'):
@@ -35,6 +42,7 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
         return super().do_GET()
 
 def run():
+    socketserver.TCPServer.allow_reuse_address = True
     server_address = ('', PORT)
     httpd = http.server.ThreadingHTTPServer(server_address, PortfolioHandler)
     print("=" * 60)
