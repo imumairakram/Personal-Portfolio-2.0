@@ -217,9 +217,9 @@
   "experience": [
     {
       "role": "Full-Stack Developer",
-      "company": "Freelancing (Contract based)",
+      "company": "Freelance Project",
       "location": "Remote",
-      "period": "Jun 2026 – Aug 2026",
+      "period": "Jun, 2026 - Sep, 2026",
       "current": false,
       "highlight": "",
       "tags": [
@@ -231,16 +231,16 @@
         "RBAC"
       ],
       "points": [
-        "Architected NexaHR, a single-company enterprise HRMS featuring biometric attendance, automated payroll, and applicant tracking.",
-        "Designed secure APIs and intuitive dashboards with strict Role-Based Access Control (RBAC) for sensitive employee data security.",
-        "Integrated real-time analytics, leave approval workflows, and employee lifecycle management."
+        "Developed an enterprise HRMS for a single company with features including biometric attendance system, payroll automation, and recruitment management.",
+        "Created secure APIs and user-friendly dashboards using RBAC.",
+        "Building the architecture into an ERP solution by integrating cross-functional modules for financial accounting, inventory, and procurement."
       ]
     },
     {
       "role": "MERN Stack Developer Intern",
       "company": "Dreams Network & Technology (Pvt) Ltd.",
       "location": "Karachi, Pakistan (Internship)",
-      "period": "Feb 2026 – May 2026",
+      "period": "Feb, 2026 - May, 2026",
       "current": false,
       "highlight": "",
       "tags": [
@@ -251,16 +251,16 @@
         "Performance Tuning"
       ],
       "points": [
-        "Built a complete front-end and back-end for the Access Control system in the company's CRM portal.",
-        "Improved the loading speed and responsiveness performance of the company website to elevate user retention.",
-        "Engineered a complete front-end and back-end for the WhatsApp dashboard in the complaint portal, helping staff easily record and manage complaints."
+        "Developed the complete front and backend of the access control system on the CRM portal.",
+        "Enhanced the performance of the website of the organization.",
+        "Developed the front and backend of the WhatsApp dashboard within the complaint portal, making it easy for the staff to track the complaints raised via WhatsApp."
       ]
     },
     {
-      "role": "Freelance Software Developer (Contract)",
+      "role": "Full Stack Developer Intern",
       "company": "QLS Karachi",
-      "location": "Karachi, Pakistan (Contract)",
-      "period": "Oct 2025 – Jan 2026",
+      "location": "Karachi, Pakistan (Internship)",
+      "period": "Oct, 2025 - Jan, 2026",
       "current": false,
       "highlight": "",
       "tags": [
@@ -270,8 +270,8 @@
         "Logistics Integration"
       ],
       "points": [
-        "Developed and deployed a full-stack e-commerce platform featuring secure authentication, dynamic browsing, and cart management.",
-        "Built an admin dashboard with real-time order tracking and automated shipping label generation."
+        "Full stack e-commerce websites built with features including authentication, dynamic browsing, and cart management functionalities.",
+        "Created an admin panel that tracks orders in real-time and generates shipping labels automatically."
       ]
     }
   ],
