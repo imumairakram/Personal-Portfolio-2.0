@@ -41,6 +41,57 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
 
         return super().do_GET()
 
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type, Accept')
+        self.end_headers()
+
+    def do_POST(self):
+        if self.path == '/api/contact' or self.path.startswith('/api/contact?'):
+            content_length = int(self.headers.get('Content-Length', 0))
+            post_data = self.rfile.read(content_length)
+            try:
+                import json, datetime
+                msg_data = json.loads(post_data.decode('utf-8'))
+                msg_data['received_at'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+                
+                # Append to messages.json in root
+                msgs_file = os.path.join(DIRECTORY, 'messages.json')
+                all_msgs = []
+                if os.path.exists(msgs_file):
+                    try:
+                        with open(msgs_file, 'r', encoding='utf-8') as mf:
+                            all_msgs = json.load(mf)
+                    except Exception:
+                        all_msgs = []
+                all_msgs.append(msg_data)
+                with open(msgs_file, 'w', encoding='utf-8') as mf:
+                    json.dump(all_msgs, mf, indent=2)
+                
+                print("\n" + "=" * 60)
+                print(" [NEW PORTFOLIO MESSAGE RECEIVED]")
+                print(f" Name:    {msg_data.get('name')}")
+                print(f" Email:   {msg_data.get('email')}")
+                print(f" Subject: {msg_data.get('subject') or msg_data.get('_subject', 'No Subject')}")
+                print(f" Message: {msg_data.get('message')}")
+                print("=" * 60 + "\n")
+                
+                self.send_response(200)
+                self.send_header('Content-type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(b'{"success": true, "message": "Message saved successfully"}')
+                return
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(f'{{"success": false, "error": "{str(e)}"}}'.encode('utf-8'))
+                return
+
 def run():
     socketserver.TCPServer.allow_reuse_address = True
     server_address = ('', PORT)
