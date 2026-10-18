@@ -32,11 +32,18 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
                 self.wfile.write(b'{}')
             return
 
+        # Mock /_vercel/* routes for local development so it doesn't rewrite to index.html
+        if self.path.startswith('/_vercel/'):
+            self.send_response(204)
+            self.send_header('Content-type', 'application/javascript')
+            self.end_headers()
+            return
+
         # SPA routing fallback: serve index.html for virtual routes
         clean_path = self.path.split('?')[0].lstrip('/')
         target_path = os.path.join(DIRECTORY, clean_path)
         
-        if clean_path and not os.path.exists(target_path) and not clean_path.startswith('assets/'):
+        if clean_path and not os.path.exists(target_path) and not clean_path.startswith(('assets/', '_vercel/')):
             self.path = '/index.html'
 
         return super().do_GET()
