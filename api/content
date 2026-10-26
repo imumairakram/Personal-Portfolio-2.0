@@ -216,27 +216,6 @@
   ],
   "experience": [
     {
-      "role": "Full-Stack Developer",
-      "company": "Freelance Project",
-      "location": "Remote",
-      "period": "Jun, 2026 - Sep, 2026",
-      "current": false,
-      "highlight": "",
-      "tags": [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "PostgreSQL",
-        "PERN Stack",
-        "RBAC"
-      ],
-      "points": [
-        "Developed an enterprise HRMS for a single company with features including biometric attendance system, payroll automation, and recruitment management.",
-        "Created secure APIs and user-friendly dashboards using RBAC.",
-        "Building the architecture into an ERP solution by integrating cross-functional modules for financial accounting, inventory, and procurement."
-      ]
-    },
-    {
       "role": "MERN Stack Developer Intern",
       "company": "Dreams Network & Technology (Pvt) Ltd.",
       "location": "Karachi, Pakistan (Internship)",
