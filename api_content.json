@@ -5,7 +5,7 @@
     "title": "Full-Stack Software Engineer",
     "tagline": "Engineering production-ready MERN stack web applications, robust backend REST APIs, and modern frontend user experiences with clean, structured architecture.",
     "subtagline": "BS in Software Engineering from IQRA University. Specializing in React, Node.js, Express, Python & modern databases.",
-    "about": "I am a Software Engineer and a dedicated MERN Stack Developer with experience in frontend and backend development. I specialize in building responsive, user-friendly web applications, and have contributed to live commercial projects. Seeking a Full-Stack Developer role where I can utilize my expertise in React.js, Node.js, and modern databases to deliver high-quality software solutions.",
+    "about": "",
     "aboutDetails": [
       "I love clean architecture, scalable APIs, and crafting intuitive user interfaces. Most days you'll find me building with React.js, Node.js, Express, PostgreSQL/MongoDB, and Python.",
       "Off the clock, I explore cloud data pipelines, system design principles, and new AI tools to refine my developer workflow."
@@ -47,7 +47,8 @@
       "REST APIs & Cloud"
     ],
     "statsTitle": "Career & Impact",
-    "statsSubtitle": "Real-world engineering, production deployments, and continuous technical growth."
+    "statsSubtitle": "Real-world engineering, production deployments, and continuous technical growth.",
+    "summary": "I am a Software Engineer and dedicated Full-Stack Developer specializing in the MERN stack, with strong hands-on experience in cross-platform mobile app development and AWS-deployed Node.js/Express backends. Throughout my career, I have successfully delivered high-impact commercial projects, including a multi-tenant SaaS platform, I specialize in building responsive, user-friendly web applications and robust architectures. I am seeking a Full-Stack Developer role where I can leverage my expertise in React.js, Node.js, and modern databases to build high-quality, scalable software solutions."
   },
   "stats": [
     {
@@ -236,8 +237,8 @@
       ]
     },
     {
-      "role": "Full Stack Developer Intern",
-      "company": "QLS Karachi",
+      "role": "MERN Stack Developer Intern",
+      "company": "QLS (Pvt) Ltd.",
       "location": "Karachi, Pakistan (Internship)",
       "period": "Oct, 2025 - Jan, 2026",
       "current": false,
