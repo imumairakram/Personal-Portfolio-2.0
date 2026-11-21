@@ -1,6 +1,6 @@
 # Umair Akram - Portfolio
 
-A 1:1 complete portfolio website for **Umair Akram**.
+A complete modern portfolio website for **Umair Akram**.
 
 All interactive features, animations (GSAP, Lenis Smooth Scroll, dynamic ticker marquee), styles, responsive layouts, resume downloads, modal views, and dynamic API content are preserved.
 
@@ -11,10 +11,10 @@ All interactive features, animations (GSAP, Lenis Smooth Scroll, dynamic ticker 
 ```text
 ├── index.html              # Main HTML entry point
 ├── favicon.svg             # Website favicon
-├── Firoj_Resume.pdf        # Downloadable Resume PDF
+├── Umair_Akram_Resume.pdf  # Downloadable Resume PDF
 ├── api_content.json        # Dynamic portfolio data (Profile, Experience, Projects, Skills, etc.)
 ├── api/
-│   └── content             # Static API fallback for non-python hosts
+│   └── content             # Static API fallback
 ├── assets/
 │   ├── index-CtTLdPUf.js   # Main JavaScript entry module
 │   ├── index-CjgW5SaR.css  # Core styling
@@ -23,8 +23,8 @@ All interactive features, animations (GSAP, Lenis Smooth Scroll, dynamic ticker 
 │   ├── Admin-CmRhcYXO.js   # Admin bundle
 │   ├── Admin-fI_-rnaT.css  # Admin styling
 │   └── Icon-CLz2lwdt.js    # Lucide icons bundle
-├── scrape_portfolio.py     # Python scraper script to re-extract or update assets
-├── server.py               # Multi-threaded local Python web server
+├── vercel.json             # Vercel deployment & routing config
+├── _redirects              # Netlify / static redirects
 └── README.md
 ```
 
@@ -32,29 +32,20 @@ All interactive features, animations (GSAP, Lenis Smooth Scroll, dynamic ticker 
 
 ## 🚀 How to Run Locally
 
-### Option 1: Using Python Server (Recommended)
-Run the provided threaded server:
+You can preview the website locally using any static server:
+
+### Option 1: Using Node / NPX (Recommended)
 ```bash
-python server.py
+npx serve .
+```
+
+### Option 2: Using Python's built-in HTTP server
+```bash
+python -m http.server 8000
 ```
 Then open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ---
 
-### Option 2: Using Any Static Server
-You can also use Node / NPX:
-```bash
-npx serve .
-```
-or Python's built-in module:
-```bash
-python -m http.server 8000
-```
-
----
-
-## 🔄 How to Re-Scrape / Update
-To re-run the Python scraper and update all assets directly from the live URL:
-```bash
-python scrape_portfolio.py
-```
+## 🌐 Deployment
+This project is configured for automated deployment on **Vercel** via `vercel.json` and Netlify via `_redirects`.
